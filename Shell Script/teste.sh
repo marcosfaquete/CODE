@@ -25,9 +25,4 @@ echo "Sua idade é: $idade anos."
 echo "Olá"
 sleep 1 
 
-echo "Olá"
-sleep 1
-
-echo "Olá"
-sleep 1
 
