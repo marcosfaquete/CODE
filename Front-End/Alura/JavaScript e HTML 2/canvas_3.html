@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas 3</title>
+</head>
+<body>
+    <center><h1>Canvas 3</h1></center>
+    <canvas width="1000" height="1000"></canvas>
+
+    <script>
+        function desenhaQuadrado(x, y, cor) {
+            var tela = document.querySelector('canvas');
+            var pincel = tela.getContext('2d');
+
+            pincel.fillStyle = cor;
+            pincel.fillRect(x, y, 50, 50);
+
+            pincel.fillStroke = 'black';
+            pincel.strokeRect(x, y, 50, 50);
+        }
+
+        desenhaQuadrado(100, 0, 'blue');
+        desenhaQuadrado(150, 0, 'red');
+        desenhaQuadrado(200, 0, 'green');
+        desenhaQuadrado(250, 0, 'black');   
+        desenhaQuadrado(300, 0, 'yellow');
+        desenhaQuadrado(350, 0, 'grey');
+        desenhaQuadrado(400, 0, 'purple');      // Horizontal
+        desenhaQuadrado(450, 0, 'orange');
+        desenhaQuadrado(500, 0, 'pink');
+        desenhaQuadrado(550, 0, 'brown');
+        desenhaQuadrado(600, 0, 'lime');
+        desenhaQuadrado(600, 0, 'teal');
+        desenhaQuadrado(650, 0, 'violet');
+
+        desenhaQuadrado(0, 0, 'blue');
+        desenhaQuadrado(0, 50, 'red');   
+        desenhaQuadrado(0, 100, 'green');
+        desenhaQuadrado(0, 150, 'black');   
+        desenhaQuadrado(0, 200, 'yellow');
+        desenhaQuadrado(0, 250, 'grey');
+        desenhaQuadrado(0, 300, 'purple');      // Vertical
+        desenhaQuadrado(0, 350, 'orange');
+        desenhaQuadrado(0, 400, 'pink');
+        desenhaQuadrado(0, 450, 'brown');
+        desenhaQuadrado(0, 500, 'lime');
+        desenhaQuadrado(0, 550, 'teal');
+        desenhaQuadrado(0, 600, 'violet');
+    </script>
+</body>
+</html>

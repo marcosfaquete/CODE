@@ -1,0 +1,24 @@
+body{
+    background-color: gray;
+}
+
+
+.Texto_1{
+    color: gray;
+    background-color: black;
+    font-size: 900%;
+    text-align: center;    
+    border-style: ridge;
+    border-color: brown;
+}
+
+.Botao_1{
+    background-color: rgb(118, 124, 124);
+    border-style: ridge;
+    border-color: brown;    
+    box-sizing: border-box;
+    
+}
+
+
+

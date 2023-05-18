@@ -1,0 +1,68 @@
+
+
+
+<script>
+
+// Function() constructor
+// - expressão new
+// - criar um novo objeto
+// - this keyword
+
+
+function Person(name) {
+    this.name = name
+}
+
+const marcos = new Person("Marcos")
+const carlos = new Person("Carlos")
+const maria = new Person("Maria")
+
+console.log(marcos)
+console.log(carlos)
+console.log(maria)
+console.log('\n')
+</script>
+
+<!--==================================================================================================================-->
+
+<script>
+
+    function Person(car) {
+        this.car = car
+        this.car = function() {
+            return this.car + "Está Ligado!"
+        }
+    }
+
+    const gol = new Person("Gol")
+    const kombi = new Person("Kombi")
+    const Fusca = new Person("Fusca")
+
+    console.log(gol)
+    console.log(kombi)
+    console.log(Fusca)
+
+    console.log('\n')
+
+    console.log(gol.car())
+    console.log(kombi.car())
+    console.log(Fusca.car())
+
+    console.log('\n')
+
+</script>
+
+<!--==================================================================================================================-->
+
+
+<script>
+
+let name = new String("Marcos")
+console.log(name)
+
+console.log('\n')
+
+let data = new Date("2022-08-03")
+console.log(data)
+
+</script>

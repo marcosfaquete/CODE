@@ -1,0 +1,79 @@
+<!--
+
+    <input>
+    - Um dos mais usados em formulários
+    - Aceita os mais diversos tipos de dados
+    - Um dos mais poderosos e complexos
+    - Elevado número de combinações
+
+
+    Atributos
+    - type
+    - name
+    - id
+
+-->
+
+<p>Lista Números</p>
+<input type="number">
+
+<p>Email exige ter @</p>
+<input type="email">
+
+<p>File</p>
+<input type="file">
+
+<p>Password</p>
+<input type="password">
+
+
+<!-- Atributos Comuns 
+    - autocomplete
+    - autofocus
+    - disabled
+    - readonly
+    - value
+    - form ( Serve para linkar o input com algum formulário)
+    - name
+    - required 
+    - placeholder (password, search, tel, text, url)
+
+-->
+
+<p>Autocomplete</p>         
+<input type="email" autocomplete="email"> <!-- sugestão completar emal -->
+
+<p>autofocus</p>
+<input type="type" autofocus> <!-- Boleano já fica ativado, sempre marca o campo de texto como primeiro da página, só pode ter 1 por página-->
+
+<p>disabled</p>
+<input type="type" disabled>
+
+<p>readonly</p>
+<input type="type" readonly>
+
+<p>readonly</p>
+<input type="type" value="texto" readonly> <!-- Não deixa mecher -->
+
+<p>value</p>
+<input type="type" value="100"> <!-- escrever o que quiser para já ficar preenchido no campo-->
+
+
+<p>form</p>
+<form id="meu-form"></form>
+<input type="type" form="meu-form">
+
+<p>form name</p>
+<form id="meu-form"></form>
+<input name="nome" type="type" form="meu-form">
+
+
+<p>required</p>
+<input type="type" required> <!-- Campo obrigatório-->
+
+
+<input type="email" placeholder="Digite seu email">
+
+<label for="email">Email</label>
+<input id="email" type="email"
+placeholder="Digite seu email">

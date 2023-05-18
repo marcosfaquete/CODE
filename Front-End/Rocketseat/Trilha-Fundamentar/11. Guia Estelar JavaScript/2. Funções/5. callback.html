@@ -1,0 +1,28 @@
+
+
+<script>
+
+// callback function
+
+function sayMyName(name) {
+    console.log(name)
+}
+
+sayMyName('Marcos');
+console.log('\n')
+
+// Posso passar objeto dentro de uma função
+sayMyName({Marca:'BMW', Cor: 'Branca', Ano: '2020'})
+
+console.log('\n')
+</script>
+
+<script>
+    
+sayMyName(
+    () => {
+        console.log('Estou em uma callback')
+    }
+)
+
+</script>

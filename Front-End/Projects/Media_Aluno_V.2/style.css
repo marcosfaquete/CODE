@@ -1,0 +1,18 @@
+
+body{
+    background-color: rgb(32, 28, 32);
+    
+}
+
+h1{
+    background-color: rgb(216, 11, 11);
+    font-size: 450%;
+    font-style: italic;
+}
+
+p{
+    background-color: rgb(90, 139, 11);
+    font-size: 300%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinha 2</title>
+</head>
+<body>
+    <h1>Adivinha 2</h1>
+    <input/>
+    <button>Compare com o meu segredo</button>    
+
+    <script>
+        var segredo = Math.round(Math.random() * 10);   // Var segredo recebendo um número aleátorio.
+
+        var input = document.querySelector("input");    // Var input recebendo a entrada de dados do usuário.
+        input.focus();
+
+        function verifica() {
+            if(input.value == segredo) {    // Compara o valor da variavel input com a var segredo.
+                alert("Você Acertou!");
+        
+            } else {
+                alert("Você Errou!");
+        }
+
+        input.value = "";   // Limpa o campo do input.
+        input.focus();  // Volta o foco no campo do input.
+    }
+
+    var button = document.querySelector("button");  // Var button recebendo o clique do usuário.
+    button.onclick = verifica; // Chamando a função verifica.
+    </script>
+    
+</body>
+</html>

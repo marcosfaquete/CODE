@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando IMC</title>
+</head>
+<body>
+    <h1>Calculando IMC</h1>
+    <script>
+        function pulaLinha() {
+            document.write("<br>");
+            document.write("<br>");
+        }
+
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+
+        function calculaImc(altura, peso) {
+            var imc = peso / (altura * altura);
+            mostra("O imc calculado é " + imc);
+        }
+
+        var pesoMarcos = 85;
+        var alturaMarcos = 1.72;
+        //var imcMarcos = pesoMarcos / (alturaMarcos * alturaMarcos);
+        //mostra("O imc do Marcos é: " + imcMarcos);
+        calculaImc(alturaMarcos, pesoMarcos);
+
+        var pesoAna = 60;
+        var alturaAna = 1.68;
+        //var imcAna = pesoAna / (alturaAna * alturaAna);
+        //mostra("O imc da Ana é: " + imcAna);
+        calculaImc(alturaAna, pesoAna);
+    </script>
+    
+    <h2>Tipo 2</h2>
+    <script>
+        function pulaLinha() {
+            document.write("<br>");
+            document.write("<br>");
+        }
+
+        function mostra(frase) {
+            document.write(frase) 
+                pulaLinha();
+        }
+        
+        function calculaImc(altura1, peso1, altura2, peso2) {
+            var imc1 = peso1 / (altura1 * altura1);
+            var imc2 = peso2 / (altura2 * altura2);
+            var imcTotal = imc1 + imc2;
+            mostra("A soma dos imc's é: " + imcTotal);
+        }
+
+        calculaImc(1.72, 73, 1.72, 68);
+    </script>
+</body>
+</html>

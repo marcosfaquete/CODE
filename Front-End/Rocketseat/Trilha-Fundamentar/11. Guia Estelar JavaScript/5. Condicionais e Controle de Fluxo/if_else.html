@@ -1,0 +1,38 @@
+<script>
+
+// Modo normal
+
+let temperature = 36.5
+
+if(temperature >= 37.5) {
+    console.log('Febre alta')
+
+} else if (temperature < 37.5 && temperature >= 37){
+    console.log('Febre moderada')
+
+}else {
+    console.log('Saudável')
+}
+</script>
+
+<!--===================================================================================================-->
+
+<script>
+console.log('\n')
+
+let temperatura = 36.9
+let temperatura_alta = temperatura <= 37.5
+let temperatura_media = temperatura < 37.5 && temperatura >= 37
+
+if(temperatura_alta) {
+    console.log('Febre Alta')
+
+}else if (temperatura_media) {
+    console.log('Febre moderada')
+
+}else {
+    console.log('Saudável')
+}
+
+
+</script>
