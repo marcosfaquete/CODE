@@ -12,12 +12,9 @@ while on:
     quantDome = int(input('Quantas Câmeras Dome?\n'))
     quantBullet = int(input('Quantas Bullet?\n'))
     print('\n')
-
-    if quantDome == 0 and quantBullet == 0:
-         Error01 = input('Erro! Valor Inválido\n')
-
-    if quantDome == 1 and quantBullet == 0:
-            # Câmera Dome + Suporte Completo
+ 
+    def Dome_1():
+         # Câmera Dome + Suporte Completo
              tipoCampo = "Society"
              cameraDome = 1
              suportesDome = 1
@@ -43,7 +40,38 @@ while on:
              arruelaDePressao = 4
              porca = 4
              
+             print("<<< Material Necessário: >>>")
+             print('Tipo de campo: ' + tipoCampo)
+             print('Câmeras Dome: ', cameraDome)
+             print(suportesDome)
+             print(borrachaVedacaoTampaSuporteDome)
+             print(tampaSuporteDome)
+             print(parafusoFecharTampaSuporteDome)
+             print(parafusoPrendCameraDome)
+             print(porcaPrendeCameraDome)
+             print(adesivoInstrucaoPS)
+             
+             print(botoeira)
+             print(botaoCogumelo)
+             print(parafusoAliparaBotao)
+             print(chapaFerroAtrazDaBotoeira)
+             print(parafusoPrendeChapaNaBotoeira)
+             print(porcaParaParafusonaDaBotoeira)
+             print(parafusoTravante)
+             print(chapaFerroTravanteLisa)
+             print(arruela)
+             print(arruelaDePressao)
              print(porca)
+             
+    if quantDome == 0 and quantBullet == 0:
+         Error01 = input('Erro! Valor Inválido\n')
+
+    if quantDome == 1 and quantBullet == 0:
+         Dome_1()
+
+    if quantDome == 2 and quantBullet == 0:
+         Dome_2()
+           
 
 
 
