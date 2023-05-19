@@ -1,5 +1,5 @@
 print('=' * 50)
-print('\n<<< FilmaEu >>>')
+print('\n<<< Fy31 >>>')
 print('\n')
 
 on = True

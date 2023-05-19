@@ -15,7 +15,7 @@ class menu_cadastro:
         
 ############ CONFIGURAÇÃO DO MENU ############
     def menucadastro(self):  # Configuração do menu
-        self.menu.title('FilmaEu')
+        self.menu.title('Fy31')
         self.menu.geometry('800x800+600+150')
         self.menu.resizable(False, False)
         self.menu.maxsize(height=800, width=800)
@@ -70,6 +70,8 @@ class menu_cadastro:
         self.txt_filmaEu.config(fg=cor_texto)
         # chamar a função novamente após um intervalo de tempo (em milissegundos)
         self.menu.after(1000, self.alterar_cor_aleatoria)
+
+    
 
 
         
