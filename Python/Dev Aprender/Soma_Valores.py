@@ -5,25 +5,25 @@
 import time
 
 lista_idade = []
-lista_idade.append(15)
+lista_idade.append(1)
 print(lista_idade)
 time.sleep(1)
 
-lista_idade.append(46)
+lista_idade.append(2)
 print(lista_idade)
 time.sleep(1)
 
-lista_idade.append(75)
-print(lista_idade)
-time.sleep(1)
-
-
-lista_idade.append(34)
+lista_idade.append(3)
 print(lista_idade)
 time.sleep(1)
 
 
-lista_idade.append(23)
+lista_idade.append(4)
+print(lista_idade)
+time.sleep(1)
+
+
+lista_idade.append(5)
 print(lista_idade)
 time.sleep(1)
 
