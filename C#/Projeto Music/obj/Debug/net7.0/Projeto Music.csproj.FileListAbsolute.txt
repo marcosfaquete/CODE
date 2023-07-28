@@ -1,0 +1,15 @@
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\bin\Debug\net7.0\Projeto Music.exe
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\bin\Debug\net7.0\Projeto Music.deps.json
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\bin\Debug\net7.0\Projeto Music.runtimeconfig.json
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\bin\Debug\net7.0\Projeto Music.dll
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\bin\Debug\net7.0\Projeto Music.pdb
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\obj\Debug\net7.0\Projeto Music.csproj.AssemblyReference.cache
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\obj\Debug\net7.0\Projeto Music.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\obj\Debug\net7.0\Projeto Music.AssemblyInfoInputs.cache
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\obj\Debug\net7.0\Projeto Music.AssemblyInfo.cs
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\obj\Debug\net7.0\Projeto Music.csproj.CoreCompileInputs.cache
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\obj\Debug\net7.0\Projeto Music.dll
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\obj\Debug\net7.0\refint\Projeto Music.dll
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\obj\Debug\net7.0\Projeto Music.pdb
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\obj\Debug\net7.0\Projeto Music.genruntimeconfig.cache
+C:\Users\Marcos\Documents\CODE\C#\Projeto Music\obj\Debug\net7.0\ref\Projeto Music.dll
